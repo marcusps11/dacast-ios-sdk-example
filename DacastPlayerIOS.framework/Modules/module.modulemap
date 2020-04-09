@@ -1,0 +1,11 @@
+framework module DacastPlayerIOS {
+  umbrella header "DacastPlayerIOS.h"
+
+  export *
+  module * { export * }
+}
+
+module DacastPlayerIOS.Swift {
+    header "DacastPlayerIOS-Swift.h"
+    requires objc
+}
